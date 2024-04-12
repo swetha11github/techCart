@@ -1,0 +1,109 @@
+header {
+  background-color: #232f3e;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.cart-icon {
+  width: 45px;
+  height: auto;
+  cursor: pointer;
+  position: absolute;
+  top: 25px;
+  right: 50px;
+}
+
+.laptop-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.laptop-card {
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+  margin: 10px;
+  padding: 10px;
+  width: 250px;
+}
+
+.laptop-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.laptop-card h2 {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.laptop-card p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.laptop-card button {
+  background-color: #ff9900;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.laptop-card button:hover {
+  background-color: #ffbf00;
+}
+
+.laptop-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px 5px 0 0; 
+}
+
+.laptop-card h2 {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.laptop-card p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.laptop-card button {
+  background-color: #ff9900;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 0 0 5px 5px; 
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.laptop-card button:hover {
+  background-color: #ffbf00;
+}
+
+.item-count{
+  display: inline-block;
+  position: relative;
+  width: 18px;
+  height: 25px;
+  left: 48%;
+  bottom: 48px;
+  font-weight: bold;
+  background-color: white;
+  border: 5px solid #232f3e;
+  border-radius: 50%;
+  font-size:medium;
+  top: 30%;
+  color: #232f3e;
+}
